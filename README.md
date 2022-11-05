@@ -17,3 +17,6 @@ $ yarn watch # npm run watch
 
 ## REACT project
 
+view : https://fastidious-phoenix-f7add1.netlify.app/
+
+
