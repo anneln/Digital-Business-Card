@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    background-color: #23252C;
+    width: 550px;
+    height: 868px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.digitalBusinessCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 317px;
+    margin: 0 auto;
+    padding-top: 1em;
+    
+}
+
+.infos, .about, .interests, footer{
+    background-color: #1A1B21;
+    padding: 1em 2.2em;
+    
+}
+
+/*HEADER*/
+
+.img-profile {
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -5px;
+    box-shadow: 5px 5px 20px rgba(26, 27, 33, 0.76);
+}
+
+.infos{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+}
+
+.name{
+    margin: 0 auto;
+    padding-top: .8em;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.role {
+    color: #1dd05d;;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 0.3em;
+    margin-bottom: 0.9em;
+    letter-spacing: 1px;
+}
+
+.website{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #F5F5F5;
+    text-decoration: none;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.website:hover{
+    color: #1dd05d;
+}
+
+/*Linkedin BUTTON*/
+.linkedin-btn {
+    background-color: #5093E2;
+    border-radius: 6px;
+    padding: 9px 13px 9px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 1em;
+    text-decoration: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.linkedin-btn:hover {
+    background-color: #a5c9f2;
+    transition: .5s ease;
+}
+
+.btn-icon{
+    margin-right: .5em;
+    height: 16px;
+    width: 16px;
+    top: 9px;
+    vertical-align: middle;
+}
+
+/*ABOUT*/ /*INTERESTS*/
+
+.about > h3, .interests > h3{
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+}
+
+.about > p, .interests > p {
+    color: #DCDCDC;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 18px
+}
+
+.interests > p {
+    margin-bottom: 2em;
+}
+
+/*FOOTER*/
+footer{
+    width: 317px;
+    background: #161619;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 20px rgba(26, 27, 33, 0.76);
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1.5em;
+    margin: 0;
+    padding-left: 0;
+}
+
+.social-list > li:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
+}
+
+/*RESPONSIVE LAYOUT*/
