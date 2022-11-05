@@ -449,7 +449,7 @@ function Footer() {
                 _react2.default.createElement(
                     'a',
                     { href: 'https://github.com/anneln', target: '_blank' },
-                    _react2.default.createElement('img', { className: 'github', src: './images/GitHubIcon.png' })
+                    _react2.default.createElement('img', { className: 'github', src: '.../images/GitHubIcon.png' })
                 )
             ),
             _react2.default.createElement(
