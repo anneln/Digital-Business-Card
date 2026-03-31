@@ -4,10 +4,16 @@ export default function About() {
       <h3>About</h3>
       <p>
         {" "}
-        I'm a frontend developer with a particular interest of customer needs
-        because I used to work a long time in marketing and tech support. I am a
-        freelance for 5 years but now I am looking for a job in Paris to work on
-        a developers team to get best practices in compagnies.
+        Frontend Integrator with over 10 years of experience, currently
+        transitioning into a Frontend Developer role. My background in marketing
+        and technical support has given me a strong user-focused mindset,
+        allowing me to create intuitive and effective user interfaces. Over the
+        years, I have developed solid expertise in frontend integration, while
+        continuously expanding my development skills through ongoing training. I
+        am now seeking a full-time opportunity in Paris as a Junior Frontend
+        Developer, where I can contribute to a collaborative team, apply my
+        technical skills, and continue growing by working on high-quality
+        projects and following industry best practices.
       </p>
     </section>
   );
